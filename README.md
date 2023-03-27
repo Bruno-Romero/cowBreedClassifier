@@ -3,6 +3,8 @@
 The idea of the project is to recognize if a cow is race-pure which is dramatically important to know its meat's price.
 The model is trained for two races, hereford and angus, that's because they are the most frequent races in Uruguay.
 
+(is still under development)
+
 # Getting Started 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
