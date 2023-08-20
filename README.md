@@ -1,7 +1,7 @@
 # About the project
 
-The idea of the project is to recognize if a cow is race-pure which is dramatically important to know its meat's price.
-The model is trained for two races, hereford and angus, that's because they are the most frequent races in Uruguay.
+The idea of the project is to recognize if a cow is pure breed which is dramatically important to know its meat's price.
+The model was trained for two breeds, hereford and angus, that's because they are the most frequent breeds in Uruguay.
 
 (is still under development)
 
