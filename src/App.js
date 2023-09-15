@@ -65,8 +65,8 @@ function App() {
       },[]
     )
 
-    useEffect(() => {
-        if (imageURL) {
+    useEffect(() =>{
+        if (!history.includes(imageURL) && imageURL) {
             setHistory([imageURL, ...history])
         }
     }, [imageURL])
@@ -82,7 +82,7 @@ function App() {
                 <input type='file' accept='image/*' capture='camera' className='uploadInput' onChange={uploadImage} ref={fileInputRef} />
                 <button className='uploadImage' onClick={triggerUpload}>Upload Image</button>
                 <span className='or'>OR</span>
-                <input type="text" placeholder='Paster image URL' ref={textInputRef} onChange={handleOnChange} />
+                <input type="text" placeholder='Paste image URL' ref={textInputRef} onChange={handleOnChange} />
             </div>
             <div className="mainWrapper">
                 <div className="mainContent">
